@@ -1,0 +1,95 @@
+body {
+  font-family: "Kalinga";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #56c596;
+  color: #fff;
+  height: 280px;
+  
+}
+
+
+.header-logo {
+  float: left;
+  font-size: 80px;
+  padding: 20px 20px;
+}
+
+.header-list li {
+  text-align: right;
+  padding: 40px 20px;
+  color: #fff;
+  font-size: 30px;
+  
+}
+
+.main {
+  padding: 100px 80px;
+  background-color: #cff4d2;
+}
+
+.copy-container h1 {
+  font-size: 80px;
+}
+
+.copy-container h2 {
+  font-size: 40px;
+}
+
+
+.contents {
+  height: 800 px;
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 24px;
+  padding: 50px 0;
+  margin: 20px 0;
+  line-height:20px
+}
+
+.contents-item {
+  float: center;
+  margin-right: 30px;
+}
+
+.contents-item p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+
+
+.footer {
+  background-color: #56c596;
+  color: #fff;
+  height: 120px;
+  padding: 30px;
+ 
+}
+
+
+  
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+
+@media (max-width: 670px) {
+  
+.flex-list{
+  flex-direction: colomn;
+}
+.flex-list {
+  margin: auto;
+}
+}
